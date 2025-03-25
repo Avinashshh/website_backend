@@ -10,7 +10,7 @@ dotenv.config({ path: ".env" });
 
 app.use(
   cors({
-    origin: ["http://localhost:5173"],
+    origin: ["https://barrio.vercel.app"],
     methods: ["POST"],
     credentials: true,
   }) 
